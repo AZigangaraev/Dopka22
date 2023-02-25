@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		AE0B6CAD29A8E5BF00D26D9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B6CAC29A8E5BF00D26D9C /* AppDelegate.swift */; };
 		AE0B6CAF29A8E5BF00D26D9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B6CAE29A8E5BF00D26D9C /* SceneDelegate.swift */; };
-		AE0B6CB129A8E5BF00D26D9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B6CB029A8E5BF00D26D9C /* ViewController.swift */; };
+		AE0B6CB129A8E5BF00D26D9C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B6CB029A8E5BF00D26D9C /* SignInViewController.swift */; };
 		AE0B6CB429A8E5BF00D26D9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0B6CB229A8E5BF00D26D9C /* Main.storyboard */; };
 		AE0B6CB729A8E5BF00D26D9C /* Dopka22.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE0B6CB529A8E5BF00D26D9C /* Dopka22.xcdatamodeld */; };
 		AE0B6CB929A8E5C000D26D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0B6CB829A8E5C000D26D9C /* Assets.xcassets */; };
 		AE0B6CBC29A8E5C000D26D9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0B6CBA29A8E5C000D26D9C /* LaunchScreen.storyboard */; };
+		AE0B6CC429A8E84900D26D9C /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B6CC329A8E84900D26D9C /* NotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE0B6CA929A8E5BF00D26D9C /* Dopka22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dopka22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0B6CAC29A8E5BF00D26D9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE0B6CAE29A8E5BF00D26D9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE0B6CB029A8E5BF00D26D9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE0B6CB029A8E5BF00D26D9C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		AE0B6CB329A8E5BF00D26D9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE0B6CB629A8E5BF00D26D9C /* Dopka22.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dopka22.xcdatamodel; sourceTree = "<group>"; };
 		AE0B6CB829A8E5C000D26D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE0B6CBB29A8E5C000D26D9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE0B6CBD29A8E5C000D26D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0B6CC329A8E84900D26D9C /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				AE0B6CAC29A8E5BF00D26D9C /* AppDelegate.swift */,
 				AE0B6CAE29A8E5BF00D26D9C /* SceneDelegate.swift */,
-				AE0B6CB029A8E5BF00D26D9C /* ViewController.swift */,
+				AE0B6CB029A8E5BF00D26D9C /* SignInViewController.swift */,
+				AE0B6CC329A8E84900D26D9C /* NotesViewController.swift */,
 				AE0B6CB229A8E5BF00D26D9C /* Main.storyboard */,
 				AE0B6CB829A8E5C000D26D9C /* Assets.xcassets */,
 				AE0B6CBA29A8E5C000D26D9C /* LaunchScreen.storyboard */,
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE0B6CB129A8E5BF00D26D9C /* ViewController.swift in Sources */,
+				AE0B6CB129A8E5BF00D26D9C /* SignInViewController.swift in Sources */,
+				AE0B6CC429A8E84900D26D9C /* NotesViewController.swift in Sources */,
 				AE0B6CAD29A8E5BF00D26D9C /* AppDelegate.swift in Sources */,
 				AE0B6CAF29A8E5BF00D26D9C /* SceneDelegate.swift in Sources */,
 				AE0B6CB729A8E5BF00D26D9C /* Dopka22.xcdatamodeld in Sources */,
